@@ -1,15 +1,59 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positioning content</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+    <header>
+        <section class="clearfix">
+            <div>
+            <img class="logo" src="https://logos-world.net/wp-content/uploads/2021/09/One-Piece-Symbol.png" alt="logo">
+            </div>
+            <nav class="link">
+                <a href="www.facebook.com">facebook</a>
+                <a href="www.instagram.com">instagram</a>
+                <a href="www.twitter.com">twitter</a>
+            </nav>
+        </section>
+    </header>
+    <main class="container">
+        <article class="clearfix">
+            <div class="article">
+                <h2 class="article-heading">
+                    main heading
+                </h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus error nostrum, aut dolorem iure maiores soluta impedit dolore corporis itaque officia cum dicta quasi qui sint architecto voluptatum minus. Voluptatum.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, libero molestiae nesciunt vitae eaque ipsam consectetur perspiciatis ipsum eligendi, eos, commodi quia dolor molestias odio facilis magni consequatur eveniet quasi.
+                </p>
+            </div>
+            <div class="article">
+                    <img class="luffy" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/One-Piece-Luffy.jpg?q=50&fit=contain&w=943&h=472&dpr=1.5" alt="luffy">
+            </div>
+        </article>
+        <section  class="clearfix">
+            <div class="gallaryone">
+                <img class="col" src="https://fictionhorizon.com/wp-content/uploads/2021/02/One-Piece-Order.jpg" alt="crew">
+                <img class="col" src="https://preview.redd.it/dj1tmwm9jmn81.png?width=1280&format=png&auto=webp&s=2ad2f5eb89ffd096ae50132ff908fa1cb21fef47" alt="yonko">
+                <img class="col" src="https://wallpaperaccess.com/full/1847959.jpg" alt="admirals">
+            </div>
+            <div class="gallarytwo">
+                <img class="col" src="https://staticg.sportskeeda.com/editor/2022/04/fc655-16489222173135-1920.jpg" alt="kidd">
+                <img class="col" src="https://staticg.sportskeeda.com/editor/2022/04/935d5-16500356686094-1920.jpg" alt="luffy">
+                <img class="col" src="https://sportshub.cbsistatic.com/i/2021/04/09/9df74632-fde2-421e-bc6f-d4bf631bf8e5/one-piece-trafalgar-law-wano-anime-1246430.jpg" alt="law">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="botton">
+            <a href="#top">Back to top</a>
+        </div>
+    </footer>
+</body>
+</html>
