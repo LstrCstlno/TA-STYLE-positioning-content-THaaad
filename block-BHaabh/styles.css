@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+/* clearfix */
+
+.clearfix:before , .clearfix:after 
+{
+content: "";
+display: table;
+}
+
+.clearfix:after
+{
+clear: both;
+}
+
+/* container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* costom styles */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* header */
+
+header{
+    background-color: rgba(83,133,192,255); 
+    height: 500px;
+    padding-top:80px;
+}
+
+.home a {
+    float: left;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a {
+    float: right;
+    text-decoration: none;
+    color: #9dbae3;
+    margin: 0 10px;
+    font-size: small;
+}
+
+h1{
+    text-align: center;
+    padding: 80px 0 20px 0;
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: 300;
+}
+
+.subhead{
+    text-align: center;
+    color:#9ca6bd;
+}
+
+/* main */
+.col{
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    padding: 0 15px; 
+}
+
+.arthead{
+    color: #5385c0;
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-top: 46px;
+    font-weight: 400;
+}
+
+.artbod{
+    color:#9ca6bd;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.more-btn{
+    border: 1px solid #5385c0;
+    background-color: #5385c0;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.sec1{
+    margin-bottom: 60px;
+}
+
+/* section 2 */
+
+.sec2{
+    background-color: #5385c0;
+}
+
+.h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 42px;
+    font-weight: 300;
+    padding-top: 80px;
+}
+
+.name{
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.col2{
+    float: left;
+    width: 20.6%;
+    margin: 0 2%;
+}
+
+.box{
+    box-sizing: content-box;
+    border: 1px solid #9ca6bd;
+    margin-top: 60px;
+    height: 330px;
+    padding-top: 20px;
+    margin-bottom: 105px;
+
+
+
+}
+
+.photo{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    object-fit: fill;
+    padding: 20px 0;
+}
+
+.align{
+    text-align: center;
+}
+
+/* section 3 */
+.h2b{
+    text-align: center;
+    color: #5385c0;
+    font-size: 42px;
+    font-weight: 300;
+    padding-top: 80px;
+}
+
+.subhead2{
+    margin-bottom: 40px;
+}
+
+.col3{
+    float: left;
+    width: 44%;
+    margin: 0 3%;
+}
+
+.img3{
+    width: 100%;
+}
+
+.sec3{
+    margin-bottom: 50px;
+}
+
+.underline{
+    border-bottom: 2px solid #dae0ed;
+}
+
+/* footer */
+.foot{
+    float: left;
+    color: #dae0ed;
+    font-size: small;
+}
+
+.logos a{
+    float: right;
+    color: #5385c0;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.footer{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
